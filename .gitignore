@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+node_modules/
+dist/
+
+# Datasets are large and come from the official source, not git.
+ml/data/raw/*
+!ml/data/raw/.gitkeep
+# Test split pickle is large; the model and metrics.json are kept.
+ml/artifacts/test_split.pkl.gz
