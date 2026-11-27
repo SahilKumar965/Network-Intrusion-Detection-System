@@ -141,9 +141,17 @@ Two changes from a typical layout, on purpose:
 Tested on Linux with Python 3.14, Node.js 22 and PostgreSQL 18. Python 3.12 or newer and PostgreSQL 16 or newer should
 also work.
 
-### 1. Python environment
+### 1. Get the code and set up Python
 
-Run all commands from the `network-intrusion-detection/` folder.
+```bash
+git clone https://github.com/SahilKumar965/Network-Intrusion-Detection-System.git
+```
+
+```bash
+cd Network-Intrusion-Detection-System
+```
+
+Run all the following commands from this folder.
 
 ```bash
 python3 -m venv .venv
